@@ -2,16 +2,21 @@ import * as React from "react";
 
 export default function Form() {
   return (
-    <div className="flex flex-col items-center space-y-4 p-6">
-      <label className="text-lg font-medium text-gray-900">
-        Enter your text:
-      </label>
-      <input
-        type="text"
-        className="w-64 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-        placeholder="Type something..."
-      />
-      <p className="text-gray-600">You typed: </p>
-    </div>
+    <section className="h-screen">
+      <div className="container h-full px-6 py-24">
+        <div className="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between">
+          {/* <!-- Left column container with background--> */}
+
+          <div className="mb-12 md:mb-0 md:w-8/12 lg:w-6/12">
+            <img
+              src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
+              className="w-full"
+              alt="Phone_image"
+            ></img>
+          </div>
+          <div className="md:w-8/12 lg:ml-6 lg:w-5/12"></div>
+        </div>
+      </div>
+    </section>
   );
 }
