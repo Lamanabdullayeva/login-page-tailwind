@@ -2,7 +2,7 @@ import * as React from "react";
 
 export default function Form() {
   return (
-    <section className="h-screen flex items-center justify-center">
+    <section className="h-screen bg-blue-100 flex items-center justify-center">
       <div className="container h-full px-6 py-24">
         <div className="flex flex-col md:flex-row items-center justify-between h-full">
           {/* <!-- Left column container with background--> */}
