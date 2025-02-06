@@ -14,7 +14,16 @@ export default function Form() {
               alt="Phone_image"
             ></img>
           </div>
-          <div className="md:w-8/12 lg:ml-6 lg:w-5/12"></div>
+          <div className="md:w-8/12 lg:ml-6 lg:w-5/12">
+            <form>
+              {/* <TEInput
+                type="email"
+                label="Email address"
+                size="lg"
+                className="mb-6"
+              ></TEInput> */}
+            </form>
+          </div>
         </div>
       </div>
     </section>
